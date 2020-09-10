@@ -4,8 +4,8 @@ var randomNumber1 = Math.floor((Math.random() * 6) + 1);
 var randomNumber2 = Math.floor((Math.random() * 6) + 1);
 
 // Creates a path to the image dices 1-6
-var randomDice1Source = "images/dice" + randomNumber1 + ".png";
-var randomDice2Source = "images/dice" + randomNumber2 + ".png";
+var randomDice1Source = "dice" + randomNumber1 + ".png";
+var randomDice2Source = "dice" + randomNumber2 + ".png";
 
 // targets and changes the dice randomly
 document.querySelectorAll("img")[0].setAttribute("src", randomDice1Source);
